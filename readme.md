@@ -8,7 +8,7 @@ Clone the repository into the home directory
 
 Then put the below block into the moonraker.conf
 
-    [update_manager client z_calibration]
+    [update_manager client filament_autoloader]
     type: git_repo
     path: ~/filament-auto-loader
     origin: https://github.com/eamars/filament-auto-loader.git
